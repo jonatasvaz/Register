@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.card{
+   display: grid;
+   grid-template-columns: 30% 30% 30%;
+    justify-content: center;
+      height: 200px;
+    margin-top: 90px;
+}
+.linha-ul{
+  margin: 10px;
+
+}
+.linha-li{
+   
+    background-color: rgb(243, 244, 247);
+    list-style: none;
+    height: 120px;
+    padding: 22px;
+}
+.linha-li:hover{
+    border: 2px solid black;
+}
+.img{
+ width: 60px;
+ height: 60px;
+
+}
+.nome{
+    font-size: 16px;
+}
+.btn{
+    background-color: green;
+     
+ 
+    padding: 5px;
+    border: none;
+    border-radius: 4px;
+    margin: 3px;
+}
+.btn a{
+    color: #fff;
+    font-size: 14px;
+}
+.btn:hover{
+    background-color: rgb(2, 71, 2);
+}
